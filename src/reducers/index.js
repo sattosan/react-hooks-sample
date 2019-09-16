@@ -6,11 +6,14 @@ action = {
 }
 
 before
-state = []
+state = [
+    {id: 1, title: 'タイトル1', body: 'ボディー1'}
+]
 
 after
 state = [
-  {id: 1, title: 'タイトル1', body: 'ボディー1'}
+  {id: 1, title: 'タイトル1', body: 'ボディー1'},
+  {id: 2, title: 'タイトル2', body: 'ボディー2'}
 ]
 */
 const events = (state = [], action) => {
