@@ -8,6 +8,7 @@ const Events = () => {
 
   return (
     <React.Fragment>
+      <h4>イベント一覧</h4>
       <table className="table table-hover">
         <thead>
           <tr>
